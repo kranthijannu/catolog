@@ -61,7 +61,7 @@ function main() {
   // Process the first test case file
   processJsonFile('test_case1.json', () => {
     // Process the second test case file after the first one is done
-    processJsonFile('second_test_case.json', () => {
+    processJsonFile('second_test_case2.json', () => {
       console.log("Finished processing both test cases.");
     });
   });
